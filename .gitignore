@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+/.vs/pplx-test
+/x64/Debug
+/pplx-test.vcxproj.user
+/pplx-test.vcxproj.filters

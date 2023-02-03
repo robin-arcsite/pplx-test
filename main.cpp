@@ -52,7 +52,7 @@ pplx::task<int> RunNestedTask(int id) {
 }
 
 int main(int argc, const char * argv[]) {
-    const int kTaskPoolSize = 65;
+    const int kTaskPoolSize = 100;
     
     std::cout << "start >>" << std::endl;
     std::vector<pplx::task<int>> tasks;
